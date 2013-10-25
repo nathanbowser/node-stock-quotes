@@ -19,7 +19,6 @@ T.prototype._transform = function (chunk, encoding, next) {
   next()
 }
 
-var header =
 http.createServer(function (req, res) {
   var u = url.parse(req.url, true)
   if (u.pathname === '/table') {
