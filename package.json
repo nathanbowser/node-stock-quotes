@@ -1,0 +1,22 @@
+{
+  "name": "node-stock-quotes",
+  "version": "1.0.0",
+  "description": "A node server that fetches stock quotes for Dash",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanbowser/node-stock-quotes.git"
+  },
+  "keywords": [
+    "stocks",
+    "dash"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nathanbowser/node-stock-quotes/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
